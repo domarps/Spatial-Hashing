@@ -11,7 +11,7 @@ Encoding geo-locations as spatial-indices for simultaneous text and location sea
       * Use stop words, stemming rules (code for Porter stemmer is readily available)
       * Mapping should be in the form of skip lists from words to list of articles (“posting lists”)
 
-3.Implement search engine: inputs is location and words
+3. Implement search engine: inputs is location and words
       * Return articles that are near that location and contain those words
       * Key computation: intersect posting lists
 
