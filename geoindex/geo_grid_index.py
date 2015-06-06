@@ -22,7 +22,7 @@ class GeoGridIndex(object):
     neighbors search
     """
     #the self variable represents the instance of the object itself
-    def __init__(self, precision=4):
+    def __init__(self, precision=2):
         """
         :param precision:
         """
